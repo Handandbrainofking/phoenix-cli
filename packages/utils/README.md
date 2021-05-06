@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const utils = require('@phoenix/utils');
+const utils = require('@phoenix-fe/utils');
 
 // TODO: DEMONSTRATE API
 ```
