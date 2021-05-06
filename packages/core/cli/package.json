@@ -1,5 +1,5 @@
 {
-  "name": "@phoenix/cli",
+  "name": "@phoenix-fe/cli",
   "version": "0.0.0",
   "description": "cli node phoenix",
   "keywords": [
@@ -28,7 +28,15 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@phoenix/utils":"file:../../utils",
-    "semver": "^7.3.5"
+    "@phoenix-fe/utils": "file:../../utils",
+    "colors": "^1.4.0",
+    "commander": "^6.2.1",
+    "dotenv": "^8.2.0",
+    "import-local": "^3.0.2",
+    "npmlog": "^4.1.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.4",
+    "user-home": "^2.0.0"
   }
 }

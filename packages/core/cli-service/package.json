@@ -1,5 +1,5 @@
 {
-  "name": "@phoenix/cli-service",
+  "name": "@phoenix-fe/cli-service",
   "version": "0.0.0",
   "description": "cli service ",
   "keywords": [
