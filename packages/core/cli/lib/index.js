@@ -60,7 +60,7 @@ function registerCommand() {
     }
   });
   program.parse(process.argv);
-  //   console.log(program);
+    console.log(program);
   if (program.args && program.args.length < 1) {
     program.outputHelp();
     console.log();

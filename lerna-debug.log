@@ -1,10 +1,12 @@
-15 error Error: Command failed with exit code 1: git remote update
-15 error fatal: unable to access 'https://github.com/Handandbrainofking/phoenix-cli.git/': LibreSSL SSL_read: SSL_ERROR_SYSCALL, errno 60
-15 error error: Could not fetch origin
-15 error Fetching origin
-15 error     at makeError (/Users/zoiew/.nvm/versions/node/v12.18.2/lib/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
-15 error     at Function.module.exports.sync (/Users/zoiew/.nvm/versions/node/v12.18.2/lib/node_modules/lerna/node_modules/execa/index.js:186:17)
-15 error     at Object.execSync (/Users/zoiew/.nvm/versions/node/v12.18.2/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:39:16)
-15 error     at updateRemote (/Users/zoiew/.nvm/versions/node/v12.18.2/lib/node_modules/lerna/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
-15 error     at isBehindUpstream (/Users/zoiew/.nvm/versions/node/v12.18.2/lib/node_modules/lerna/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
-15 error     at VersionCommand.initialize (/Users/zoiew/.nvm/versions/node/v12.18.2/lib/node_modules/lerna/node_modules/@lerna/version/index.js:153:9)
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '/Users/molock/.nvm/versions/node/v12.14.0/bin/lerna',
+0 silly argv   pkg: 'cli-test'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/molock/Movies/CodeMarket/imooc/zoiew-demo/phoenix-cli
+3 error TypeError: Cannot convert undefined or null to object
+3 error     at Function.keys (<anonymous>)
+3 error     at module.exports (/Users/molock/.nvm/versions/node/v12.14.0/lib/node_modules/lerna/node_modules/npm-pick-manifest/index.js:213:22)

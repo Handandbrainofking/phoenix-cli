@@ -1,0 +1,30 @@
+{
+  "name": "cli-test",
+  "version": "0.0.2",
+  "description": "test 使用",
+  "keywords": [
+    "test",
+    "node"
+  ],
+  "author": "liangzw7 <1901543053@qq.com>",
+  "homepage": "https://github.com/Handandbrainofking/phoenix-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Handandbrainofking/phoenix-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Handandbrainofking/phoenix-cli/issues"
+  }
+}
